@@ -1,0 +1,18 @@
+h1,h3{
+  font-weight: 100;
+}
+
+body{
+    background-color: #fcfcfc;
+    font-family: 'Roboto';font-size: 22px;
+ 
+}
+
+.image {
+  text-align: center;
+}
+
+.page{
+    text-align: center;
+    margin-top: 10%;
+}
