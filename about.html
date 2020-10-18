@@ -10,7 +10,7 @@
 
 <body>
   <!--nav bar start-->
-  <div class="topnav" id="myTopnav">
+  <div class="nav" id="centered_nav">
     <a href="index.html" class="active">Home</a>
     <a href="about.html">About</a>
     <a href="vr.html">VR Project</a>
@@ -28,12 +28,12 @@
 <!--nav bar script-->
 <script>
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+    var x = document.getElementById("centered_nav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
 }
 </script>
 
